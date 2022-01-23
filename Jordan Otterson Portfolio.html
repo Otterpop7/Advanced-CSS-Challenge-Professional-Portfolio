@@ -4,35 +4,51 @@
 <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/Style.css" />
 </head>
 
 <body>
-    <!-- header navigation -->
     <div class="topnav">
-        <a id="profilePicture" href="/Profile Picture.jpg">Jordan Otterson</a>
-        <a href="#more-future-projects">More Future Projects</a>
-        <a href="#future-projects">Future Projects</a>
+        <a id="profilePicture" href="/Images/Profile_Picture.jpg" alt="picture of jordan">Jordan Otterson</a>
+        <a href="#contact-me">Contact Me</a>
         <a href="#projects">Projects</a>
         <a href="#about-me">About Me</a>
     </div>
-
-    <!-- "what we do" section -->
     <br/>
-    <section id="about-me" class="intro">
-        <div class="flex-row">
+    <section id="about-me" class="row intro">
+        <h1>About Me</h1>
+        <div class="myAbout flex-row">
             <p>
                 My name is Jordan Otterson I am 21 and I like to snowboard, hangout with my friends, and going camping. I have 6 siblings, 5 brothers and 1 girl and I am the youngest in my family.
             </p>
         </div>
     </section>
     <br/>
-    <section id="projects" class="intro">
+    <section id="projects" class="row intro">
+        <h1>Projects</h1>
+        <div class="grid-container1">
+            <div class="card grid-item1" id="project5"><a class="linkText" href="#project5">Project #5</a></div>
+        </div>
         <div class="grid-container">
-            <div class="card grid-item" id="project1"><a class="linkText" href="#projects">Projects</a></div>
-            <div class="card grid-item" id="project2"><a class="linkText" href="#projects">Projects #2</a></div>
-            <div class="card grid-item" id="project3"><a class="linkText" href="#future-projects">Future Projects</a></div>
-            <div class="card grid-item" id="project4"><a class="linkText" href="#more-future-projects">More Future Projects</a></div>
+            <div class="card grid-item" id="project1"><a class="linkText" href="#project1">Project #1</a></div>
+            <div class="card grid-item" id="project2"><a class="linkText" href="#project2">Project #2</a></div>
+            <div class="card grid-item" id="project3"><a class="linkText" href="#project3">Project #3</a></div>
+            <div class="card grid-item" id="project4"><a class="linkText" href="#project4">Project #4</a></div>
+        </div>
+    </section>
+    <section id="contactMe" class="row">
+        <h1>Contact Me</h1>
+        <div class="contactText">
+            <div>
+                <p>(385)-482-9917</p>
+            </div>
+            <div>
+                <p>jordanotterson7@gmail.com</p>
+            </div>
+            <div>
+                <a href="github.com">GitHub</a>
+            </div>
         </div>
     </section>
 </body>
