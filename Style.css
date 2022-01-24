@@ -64,10 +64,15 @@
 
 .grid-item1 {
     border: 5px solid black;
-    padding: 100px 20px 10px 0;
+    padding: 200px 20px 100px 0;
     font-size: 25px;
     text-align: center;
     margin: 10px;
+}
+
+.grid-item1:hover {
+    border: 5px solid rgb(30, 255, 236);
+    cursor: pointer;
 }
 
 .grid-container {
@@ -119,7 +124,7 @@
 }
 
 #project5 {
-    background-image: url("./Images/thefrozenforestsofsweden_redone_30x20.jpg");
+    background-image: url("./Images/852c2fa5e5468761c3ae8b796ca9be85_XL.jpg");
 }
 
 .column {
